@@ -18,6 +18,14 @@ namespace T4
             car.PrintData();
             car.ToString();
 
+            Vehicle motorbike = new Vehicle();
+            motorbike.Name = "Harrikka";
+            motorbike.Speed = 150;
+            motorbike.Tyres = 2;
+            motorbike.PrintData();
+            motorbike.ToString();
+
+
 
             Console.ReadLine();
         }
