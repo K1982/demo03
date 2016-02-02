@@ -16,14 +16,15 @@ namespace T4
             car.Speed = 80;
             car.Tyres = 4;
             car.PrintData();
-            car.ToString();
+            Console.WriteLine(car.ToString());
+            
 
             Vehicle motorbike = new Vehicle();
             motorbike.Name = "Harrikka";
             motorbike.Speed = 150;
             motorbike.Tyres = 2;
             motorbike.PrintData();
-            motorbike.ToString();
+            Console.WriteLine(motorbike.ToString());
 
 
 

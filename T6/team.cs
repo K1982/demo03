@@ -30,8 +30,7 @@ namespace T6
         {
             return "Nimi : " + Nimi + " Laji : " + Laji + " Sarja : " + Sarja + " Mestaruudet : "
                 + Mestaruudet + " Perustuvuosi : " + Perustusvuosi ;
-
-        }
+         }
 
 
     }

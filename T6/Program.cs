@@ -17,7 +17,7 @@ namespace T6
             team1.Mestaruudet = 0;
             team1.Perustusvuosi = 1987;
             team1.PrintData();
-            team1.ToString();
+            Console.WriteLine(team1.ToString());
 
             Team team2 = new Team();
             team2.Nimi = "Kalpa";
@@ -26,7 +26,7 @@ namespace T6
             team2.Mestaruudet = 0;
             team2.Perustusvuosi = 1929;
             team2.PrintData();
-            team2.ToString();
+            Console.WriteLine(team2.ToString());
 
             Team team3 = new Team();
             team3.Nimi = "SSV";
@@ -35,7 +35,7 @@ namespace T6
             team3.Mestaruudet = 11;
             team3.Perustusvuosi = 1986;
             team3.PrintData();
-            team3.ToString();
+            Console.WriteLine(team3.ToString());
 
             Team team4 = new Team();
             team4.Nimi = "Bisons";
@@ -44,7 +44,7 @@ namespace T6
             team4.Mestaruudet = 2;
             team4.Perustusvuosi = 1964;
             team4.PrintData();
-            team4.ToString();
+            Console.WriteLine(team4.ToString());
 
             Team team5 = new Team();
             team5.Nimi = "Sampo";
@@ -53,7 +53,7 @@ namespace T6
             team5.Mestaruudet = 3;
             team5.Perustusvuosi = 1924;
             team5.PrintData();
-            team5.ToString();
+            Console.WriteLine(team5.ToString());
 
 
             Console.ReadLine();

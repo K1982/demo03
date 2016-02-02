@@ -27,7 +27,7 @@ namespace T4
         // palauttaa kaikki ominaisuudet yhtenä merkkijonona
         public override string ToString()
         {
-            return "Name : " + Name + "Speed : " + Speed + "Tyres : " + Tyres;
+            return "Name : " + Name + " Speed : " + Speed + " Tyres : " + Tyres;
 
         }
 
